@@ -1,0 +1,123 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: beige;
+	position: relative;
+}
+
+#pear {
+	width: 100px;
+	height: 130px;
+	background-image: linear-gradient(to right, green , yellow);
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	top: 250px;
+	left: 350px;
+	z-index: 1;
+	transform: rotate(20deg);
+	position: absolute;
+}
+
+
+#square {
+	width: 200px;
+	height: 150px;
+	background: black;
+	top: 203px;
+	left: 320px;
+	position: absolute;
+}
+
+#smallsquare {
+	width: 70px;
+	height: 60px;
+	background: black;
+	top: 150px;
+	left: 445px;
+	position: absolute;
+}
+
+#lens {
+	width: 70px;
+	height: 90px;
+	background: black;
+	top: 240px;
+	left: 500px;
+	position: absolute;
+}
+
+#innersquare {
+	width: 150px;
+	height: 90px;
+	border: 2px solid white;
+	background: black;
+	top: 240px;
+	left: 340px;
+	position: absolute;
+}
+
+
+
+
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+
+
+#circle {
+	width: 90px;
+	height: 90px;
+	background: black;
+	border-radius: 150px;
+	top: 240px;
+	left: 520px;
+	z-index: 1;
+	position: absolute;
+}
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 520px;
+	z-index: 0;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
