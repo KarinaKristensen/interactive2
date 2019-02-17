@@ -53,9 +53,13 @@
     display: grid;
     display:grid;
     transform: scale(0.6);
-    filter: drop-shadow(white 25px 25px 0);
+    filter: drop-shadow(white 0px 0px 0);
     transition: all 200ms ease;
     transform: scale(0.6);
+}
+
+.letter:hover {
+  filter:drop-shadow(white 25px 25px 0);
 }
 
 .letter.wide {
@@ -86,6 +90,17 @@
     transform: scale(0.6);
     filter: drop-shadow(white 25px 25px 0);
     transition: all 200ms ease;
+    transform: scale(0.6);
+}
+
+.sentence{
+    position:relative;
+    width:2000px;
+    height:auto;
+    float:left;
+    margin-left:30px;
+/*    margin-top: 20px;*/
+    display: grid;
     transform: scale(0.6);
 }
 
@@ -942,4 +957,7 @@ element.style{
 .nine{
     
 }
+
+
+.
 
