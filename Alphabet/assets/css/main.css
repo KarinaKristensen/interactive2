@@ -19,12 +19,12 @@
 
 
 .pink {
-    margin-top: 1600px;
+    margin-top: 1200px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: #FFE4E1;
     width: 100vw;
-    height: 1000px;
+    height: 750px;
     position: absolute;
 }
 
@@ -83,19 +83,25 @@
 
 .sentence{
     position:relative;
-    width:1280px;
+    width:1185px;
     height:auto;
     float:left;
     margin-left:30px;
 /*    margin-top: 20px;*/
     display: grid;
-    transform: scale(0.6);
+    transform: scale(0.7);
 }
+
+
+
+
 
 element.style{
     filter:drop-shadow(white 0 0 0);
 
 }
+
+
 
 
 
@@ -1353,3 +1359,43 @@ element.style{
     transform:rotate(90deg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.colon1{
+    width: 35px;
+    height: 35px;
+    margin-bottom:0px;
+    margin-left:40px;
+    background: #DB7093; 
+}
+
+
+.colon2{
+    width: 35px;
+    height: 35px;
+    margin-bottom:0px;
+    margin-left:40px;
+    margin-top:131px;
+    background: #DB7093; 
+}
+
+.curve{
+  width: 172px; 
+  height: 100px;  
+  margin-top:51px;
+  margin-left:-160px;
+  border: solid 3px #DB7093;
+  border-color: #DB7093 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+    transform: rotate(90deg);
+}
