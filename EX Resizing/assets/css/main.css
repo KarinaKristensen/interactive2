@@ -1,0 +1,104 @@
+body {
+  padding:10vw;
+  background-color:#FFEBCD;
+  transition:background 500ms ease;  
+  font-size:2vw;
+  font-family:Futura;
+}
+
+  h1 {
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+  }
+    .copy {
+    position:absolute;
+    top:0;
+  }
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding:10vw;
+    background-color: #FFA07A;
+  }
+  
+  h1 {
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+  }
+  
+  .copy {
+    position:relative;
+    top:0;
+  }
+  
+}
+
+
+@media only screen and  (min-width: 601px) and (max-width: 700px) {
+  body {
+    padding:10vw;
+    background-color: #FFC09A;
+  }
+  
+  h1 {
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+  }
+    .copy {
+    position:absolute;
+    bottom:0;
+  }
+
+
+
+}@media only screen and  (min-width: 700px) and (max-width: 850px) {
+  body {
+    padding:10vw;
+    background-color: #FFC05A;
+  }
+  
+  h1 {
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+  }
+    .copy {
+    position:absolute;
+    bottom:0;
+  }
+}
+
+}@media only screen and  (min-width: 851px) and (max-width: 900px) {
+  body {
+    padding:10vw;
+    background-color: #FFC03A;
+  }
+  
+  h1 {
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    background:white;
+    transform:rotate(180deg);
+  }
+    .copy {
+    position:absolute;
+    bottom:0;
+  }
+}
