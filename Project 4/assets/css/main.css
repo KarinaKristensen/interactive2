@@ -1,73 +1,344 @@
 body, html{
-  background: #8cbeaa;
+  background: #FFE4C4;
   margin:0;
 }
+  
+    .diane{
+      text-align: center;
+      font-family: futura, bold;
+      font-size: 120px;
+      margin-top: 17vh;
+    }
 
-.left{
-  float:left;
-  background-color:#8cbeaa;
-  height:100vh;
-  width:50vw;
-  padding: 0px;
-  z-index: 0;
-  /*margin-top: -10px;*/
-}
+    .triangle-right {
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 50px solid white;
+      transform: rotate(90deg);
+      position: absolute;
+      top: 88vh;
+      left: 90vw;
 
-.right{
-  display: block;
-  float:right;
-  background-color:#f0f2eb;
-  height:100vh;
-  width:50vw;
-  position: absolute;
-  right:0px;
-  margin-left: 50vw;
-  /*margin-top: -10px;*/
-}
+    }
 
-.brown{
-  background-color: #b5592a;
-}
+    .triangle-left {
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 50px solid white;
+      transform: rotate(270deg);
+      position: absolute;
+      top: 88vh;
+      margin-left:10vw;
+    }
 
-.circle{
-  width:100px;
-  height:100px;
-  border-radius:50px;
-  color:#f09027;
-  border: dotted;
-  z-index: 1;
-  position: absolute;
-}
+    .rectangle1{
+      width: 750px;
+      height: 16px;
+      color: transparent;
+      border-color: white;
+      border-style: solid;
+      position: absolute;
+      border-width: 3px;
+      top: 38px;
+      right:0px;
 
-.circle:hover {
-  background-color: #b5592a;
-  color: #f09027;
-}
+    }
 
-#c1{
-}
+    .rectangle2{
+      width: 480px;
+      height: 20px;
+      background-color: white;
+      border-width: 3px;
+      position: absolute;
+      top: 523px;
+    }
 
-#c2{
-}
+    .date{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .4em;
+      color: grey;
+      margin-top: 0px;
+      position:absolute;
+      top: 13vh;
+      right:0vh;
+    }
 
-#c3{
-}
+    .location{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .4em;
+      color: black;
+      margin-top: 482px;
+      position:absolute;
+      top: 11vh;
+      left:28vh;
+    }
 
-#c4{
-}
+    .name{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .8em;
+      color: black;
+      margin-top: 221px;
+      position:absolute;
+      top: 13vh;
+      left:60vh;
+    }
 
-#c5{
-}
+    .name1{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .8em;
+      color: black;
+      margin-top: 221px;
+      position:absolute;
+      top: 13vh;
+      left:87.8vh;
+      opacity: 0.7;
+    }
 
-#c6{
-}
+        .name2{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .8em;
+      color: black;
+      margin-top: 221px;
+      position:absolute;
+      top: 15vh;
+      left:87.8vh;
+      opacity: 0.5;
+    }
 
-#c7{
-}
+        .name3{
+      text-align: center;
+      font-family: futura, regular;
+      height: 100px;
+      font-size: 23px;
+      letter-spacing: .8em;
+      color: black;
+      margin-top: 221px;
+      position:absolute;
+      top: 17vh;
+      left:87.8vh;
+      opacity: 0.3;
+    }
 
-#c8{
-}
 
+    .text1 {
+      font-family: futura, regular;
+      font-size: 2vmin;
+      margin-left: 720px;
+      margin-top: 6vh;
+      margin-right: 80px;
+    }
+
+    .image1{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/int_img1_center.jpg);
+      background-size: 390px;
+      width:35vw;
+      height:50vh;
+      margin-top:20vh;
+      margin-left:10vw;
+    }
+
+      .image2{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/int2_img1_top.jpg);
+      background-size: 515px;
+      width:35vw;
+      height:3vh;
+      margin-top:-55vh;
+      margin-left:10vw;
+    }
+
+      .image3{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/int2_img1_top.jpg);
+      background-size: 515px;
+      width:35vw;
+      height:1vh;
+      margin-top:-5.5vh;
+      margin-left:10vw;
+    }
+
+      .text2 {
+      font-family: futura, regular;
+      font-size: 2vmin;
+      margin-left: 720px;
+      margin-top: -40vh;
+      margin-right: 80px;
+    }
+
+    .image21{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/diane-arbus.jpg);
+      background-size: 390px;
+      width:35vw;
+      height:50vh;
+      margin-top:20vh;
+      margin-left:10vw;
+    }
+
+      .image22{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/diane-arbus.jpg);
+      background-size: 390px;
+      width:35vw;
+      height:50vh;
+      margin-top:-55vh;
+      margin-left:8vw;
+    }
+
+      .image23{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/diane-arbus.jpg);
+      background-size: 390px;
+      width:35vw;
+      height:50vh;
+/*      position: fixed;*/
+      margin-top:-55vh;
+      margin-left:6vw;
+    }
+
+
+
+
+
+
+
+
+
+      .text3 {
+      font-family: futura, regular;
+      font-size: 2vmin;
+      margin-left: 720px;
+      margin-top: -45vh;
+      margin-right: 80px;
+    }
+
+      .image31{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/1424086138.9187_115_o.jpg);
+      background-size: 10px;
+      width:35vw;
+      height:50vh;
+/*      position: fixed;*/
+      margin-top:15vh;
+      margin-left:6vw;
+    }
+
+
+
+          .image32{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/1424086138.9187_115_o.jpg);
+      background-size: 50px;
+      width:35vw;
+      height:50vh;
+/*      position: fixed;*/
+      margin-top:-45vh;
+      margin-left:4vw;
+      border-width: 70px;
+      border-color: white;
+    }
+
+
+          .text4 {
+      font-family: futura, regular;
+      font-size: 2vmin;
+      margin-left: 720px;
+      margin-top: -45vh;
+      margin-right: 80px;
+    }
+
+
+
+
+
+          .image42{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/Arbusportrait-xlarge_trans_NvBQzQNjv4BqZL47dXnFPY4avLErTEd1-LQeycNuEMlwfdZV_qztUkk.jpg);
+      background-size: 600px;
+      width:3vw;
+      height:50vh;
+/*      position: fixed;*/
+      margin-top:-45vh;
+      margin-left:43vw;
+      border-width: 70px;
+      border-color: white;
+    }
+
+
+      .image41{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/Arbusportrait-xlarge_trans_NvBQzQNjv4BqZL47dXnFPY4avLErTEd1-LQeycNuEMlwfdZV_qztUkk.jpg);
+      background-size: 310px;
+      width:35vw;
+      height:50vh;
+/*      position: fixed;*/
+      margin-top:14vh;
+      margin-left:6vw;
+      -webkit-filter: invert(1);
+     filter: invert(1);
+/*     z-index: -2;*/
+    }
+
+          .image43{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/Arbusportrait-xlarge_trans_NvBQzQNjv4BqZL47dXnFPY4avLErTEd1-LQeycNuEMlwfdZV_qztUkk.jpg);
+      background-size: 600px;
+      width:38vw;
+      height:3vh;
+/*      position: fixed;*/
+      margin-top:-2vh;
+      margin-left:8vw;
+      border-width: 70px;
+      border-color: white;
+    }
+
+
+
+
+
+         .text5 {
+      font-family: futura, regular;
+      font-size: 2vmin;
+      margin-left: 720px;
+      margin-top: -45vh;
+      margin-right: 80px;
+    }
+
+
+
+
+
+
+
+      .image51{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/0ee2152ebe37a1a329fd382c6bbcb975.png);
+      background-size: 385px;
+      width:30vw;
+      height:55vh;
+/*      position: fixed;*/
+      margin-top:14vh;
+      margin-left:6vw;
+    }
+
+      .image52{
+      background-image: url(file:///Users/karinakristensen/Desktop/CCA/Third%20Semester/INT%202/interactive2/Project%204/0ee2152ebe37a1a329fd382c6bbcb975.png);
+      background-size: 385px;
+      width:20vw;
+      height:45vh;
+      position: absolute;
+      margin-top:-50vh;
+      margin-left:10vw;
+      transform: scale(0.8);
+    }
 
 
 
