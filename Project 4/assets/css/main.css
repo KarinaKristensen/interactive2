@@ -2,13 +2,29 @@ body, html{
   background: #FFE4C4;
   margin:0;
 }
-  
+
+
     .diane{
       text-align: center;
       font-family: futura, bold;
-      font-size: 120px;
+      font-size: 9.35vw;/*120px;*/
+      margin-top: 30vh;
+      line-height: 0;
+    }
+
+  
+  /*@media only screen and (max-width: 1290px) and (min-width: 450px){
+       .diane{
+      text-align: center;
+      font-family: futura, bold;
+      font-size: 100px;
       margin-top: 17vh;
     }
+
+
+  }
+*/
+
 
     .triangle-right {
       width: 0;
@@ -20,19 +36,22 @@ body, html{
       position: absolute;
       top: 88vh;
       left: 90vw;
-
+  -webkit-animation: triangle-right 1s ease-in-out 0.5s infinite both;
+          animation: triangle-right 1s ease-in-out 0.5s infinite both;
     }
 
     .triangle-left {
       width: 0;
       height: 0;
+      transform: rotate(270deg);
       border-left: 25px solid transparent;
       border-right: 25px solid transparent;
       border-bottom: 50px solid white;
-      transform: rotate(270deg);
       position: absolute;
       top: 88vh;
       margin-left:10vw;
+        -webkit-animation: triangle-left 1.5s ease-in-out infinite both;
+          animation: triangle-left 1.5s ease-in-out infinite both;
     }
 
     .rectangle1{
@@ -93,58 +112,23 @@ body, html{
       margin-top: 221px;
       position:absolute;
       top: 13vh;
-      left:60vh;
+      left:0;
+      right:0;/*60vh;*/
     }
 
-    .name1{
-      text-align: center;
-      font-family: futura, regular;
-      height: 100px;
-      font-size: 23px;
-      letter-spacing: .8em;
-      color: black;
-      margin-top: 221px;
-      position:absolute;
-      top: 13vh;
-      left:87.8vh;
-      opacity: 0.7;
-    }
 
-        .name2{
-      text-align: center;
-      font-family: futura, regular;
-      height: 100px;
-      font-size: 23px;
-      letter-spacing: .8em;
-      color: black;
-      margin-top: 221px;
-      position:absolute;
-      top: 15vh;
-      left:87.8vh;
-      opacity: 0.5;
-    }
-
-        .name3{
-      text-align: center;
-      font-family: futura, regular;
-      height: 100px;
-      font-size: 23px;
-      letter-spacing: .8em;
-      color: black;
-      margin-top: 221px;
-      position:absolute;
-      top: 17vh;
-      left:87.8vh;
-      opacity: 0.3;
-    }
 
 
     .text1 {
       font-family: futura, regular;
       font-size: 2vmin;
-      margin-left: 720px;
+      /*margin-left: 720px;
       margin-top: 6vh;
-      margin-right: 80px;
+      margin-right: 80px;*/
+      top: 18vh;
+      right: 80px;
+      position: absolute;
+      width: 30vw;
     }
 
     .image1{
@@ -154,6 +138,9 @@ body, html{
       height:50vh;
       margin-top:20vh;
       margin-left:10vw;
+      background-size: contain;
+/*    background-repeat: no-repeat;*/
+    background-position: top;
     }
 
       .image2{
@@ -175,11 +162,20 @@ body, html{
     }
 
       .text2 {
-      font-family: futura, regular;
+/*      font-family: futura, regular;
       font-size: 2vmin;
       margin-left: 720px;
       margin-top: -40vh;
-      margin-right: 80px;
+      margin-right: 80px;*/
+            font-family: futura, regular;
+      font-size: 2vmin;
+      /*margin-left: 720px;
+      margin-top: 6vh;
+      margin-right: 80px;*/
+      top: 18vh;
+      right: 80px;
+      position: absolute;
+      width: 30vw;
     }
 
     .image21{
@@ -219,11 +215,20 @@ body, html{
 
 
       .text3 {
-      font-family: futura, regular;
+/*      font-family: futura, regular;
       font-size: 2vmin;
       margin-left: 720px;
       margin-top: -45vh;
-      margin-right: 80px;
+      margin-right: 80px;*/
+            font-family: futura, regular;
+      font-size: 2vmin;
+      /*margin-left: 720px;
+      margin-top: 6vh;
+      margin-right: 80px;*/
+      top: 18vh;
+      right: 80px;
+      position: absolute;
+      width: 30vw;
     }
 
       .image31{
@@ -252,11 +257,20 @@ body, html{
 
 
           .text4 {
-      font-family: futura, regular;
+/*      font-family: futura, regular;
       font-size: 2vmin;
       margin-left: 720px;
       margin-top: -45vh;
-      margin-right: 80px;
+      margin-right: 80px;*/
+            font-family: futura, regular;
+      font-size: 2vmin;
+      /*margin-left: 720px;
+      margin-top: 6vh;
+      margin-right: 80px;*/
+      top: 18vh;
+      right: 80px;
+      position: absolute;
+      width: 30vw;
     }
 
 
@@ -306,11 +320,20 @@ body, html{
 
 
          .text5 {
-      font-family: futura, regular;
+/*      font-family: futura, regular;
       font-size: 2vmin;
       margin-left: 720px;
       margin-top: -45vh;
-      margin-right: 80px;
+      margin-right: 80px;*/
+            font-family: futura, regular;
+      font-size: 2vmin;
+      /*margin-left: 720px;
+      margin-top: 6vh;
+      margin-right: 80px;*/
+      top: 18vh;
+      right: 80px;
+      position: absolute;
+      width: 30vw;
     }
 
 
@@ -341,4 +364,104 @@ body, html{
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-4-25 17:8:19
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation pulsate-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes triangle-left {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes triangle-left {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+@-webkit-keyframes triangle-right {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes triangle-right {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 
